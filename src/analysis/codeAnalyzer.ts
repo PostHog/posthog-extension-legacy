@@ -139,7 +139,11 @@ export class CodeAnalyzer {
     const lines = text.split("\n");
 
     // Import patterns
-    const importPatterns = [/^import\s+posthog/i, /^from\s+posthog\s+import/i];
+    const importPatterns = [
+      /^import\s+posthog/i,
+      /^from\s+posthog\s+import/i,
+      /^import\s+posthog-analytics/i,
+    ];
 
     // Add initialization patterns back
     const initializationPatterns = [
