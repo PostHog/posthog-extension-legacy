@@ -6,6 +6,17 @@
 
 - Themes: PostHog Light and PostHog Dark
 
+## [1.0.3] - 2025-03-27
+
+### Added
+
+- Added SDK Usage Analysis mode
+- Added support for 4 usage warnings
+- Updated API key management to use VSCode Secret Storage
+
+### Removed
+- Recordings view
+
 ## [1.0.2] - 2025-03-26
 
 ### Added
